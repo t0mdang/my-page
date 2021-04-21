@@ -1,0 +1,254 @@
+@media only screen and (max-width: 550px){
+
+    /* Global Styles ----------------------------------------------------------------------------------------------------------------------------------------------*/
+    * {
+        box-sizing: border-box;
+    }
+
+    html {
+        font-size: 16px;
+        scroll-behavior: smooth;
+    }
+
+
+    body {
+        background-color: #000;
+        margin:0;
+        padding:0;
+    }
+
+    span {
+        color: #FCAF45;
+    }
+
+
+    /* Header ---------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    #header {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 10px;
+    }
+
+    .logolink {
+        width: 70px;
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .logolink>img{
+      width: 50%;
+      object-fit: contain;
+    }
+
+
+    #nav {
+        flex: 1;
+        text-align: right;
+        font-family: 'Nunito Sans', sans-serif;
+        font-size: 14px;
+        padding: 10px;
+        font-weight: 600;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #nav li {
+        color:#FFF;
+        display: inline;
+        width: 100%;
+        text-align: center;
+    }
+
+    #nav a {
+        color: #FFF;
+        text-decoration: none;
+    }
+
+    #nav a:hover {
+        color: #FCAF45;
+        text-decoration: none;
+    }
+
+    #nav a:active {
+        color: grey;
+        text-decoration: none;
+    }
+
+
+    #facebook,#instagram {
+        height: 25px;
+        width: 25px;
+        background-color: white;
+        margin-left: 3px;
+    }
+
+    #facebook {
+        position: relative;
+        bottom: 3px;
+    }
+
+    #instagram:hover, #facebook:hover {
+        background-color: #FCAF45;
+    }
+
+    #instagram:active, #facebook:active {
+        background-color: #808080;
+    }
+
+
+    #socials {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      width: 70px;
+    }
+
+
+    /* Page-Hero -------------------------------------------------------------------- */
+
+    .page-hero {
+        margin: 15px auto;
+        width: 90vw;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-container {
+      margin-top: 30px;
+      overflow: hidden;
+       width: 80%;
+       border-radius: 7%;
+       display: flex;
+       justify-content: center;
+       align-items: center;
+
+    }
+
+    .imgWrapper{
+        height: 250px;
+        position: relative;
+    }
+  
+      .imgWrapper>img{
+        width: 100%;
+        height: 100%;
+    }
+  
+      .button-container{
+        position: absolute;
+    }
+  
+
+    .button {
+        background-color: #000;
+        border: 2px solid #FFF;
+        color: white;
+        text-decoration: none;
+        font-family: 'Poppins', sans-serif;
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    .button:hover {
+        border: 2px solid #FCAF45;
+        color: #FCAF45;
+    }
+
+    .button:active {
+        border: 2px solid grey;
+        color: grey;
+    }
+
+
+    .page-hero-title {
+        float: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    .page-hero h1,h2 {
+        color: #FFF;
+        font-family: 'Poppins', sans-serif;
+        margin: 0;
+        text-align: center;
+    }
+
+    .page-hero h1 {
+        font-size: 40px;
+        border-bottom: 3px solid #FCAF45;
+        padding-bottom: 12px;
+    }
+
+    .page-hero h2 {
+        font-size: 15px;
+        margin-top: 12px;
+    }
+
+
+
+    /* SOON ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------- */
+
+    #soon {
+        width: 70%;
+        margin: 30px auto;
+        border-top: 1px solid white;
+        border-bottom: 1px solid white;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #soon h1 {
+        font-size: 40px;
+        font-family: 'Poppins', sans-serif;
+        text-align: center;
+        margin: 0 auto;
+        color: white;
+        padding-top: 30px;
+        
+    }
+
+    .gifWrapper img {
+        width: 100%;
+        object-fit: contain;
+        padding: 50px 0px;
+    }
+
+
+
+  
+    /* FOOTER --------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+    .footer {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        width: 100%;
+    }
+
+    .footer h2 {
+        color: white;
+        font-family: 'Poppins', sans-serif;
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .contact {
+        flex: 1;
+        text-align: right;
+        padding-bottom: 20px;
+    }
+
+    
+
+}
